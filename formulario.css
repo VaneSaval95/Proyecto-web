@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+    @import url(https://fonts.googleapis.com/css?family=Raleway);
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  font-family: 'Noto sans';
+  color: black;
+  text-align: center; 
+  margin: 10px;
+   line-height: 1.5;
+  font-size: 20px;
+}
+ #flex-container{
+      display:flex;
+      justify-content: space-between;
+    }
+    #flex-content{
+      flex-grow: 3;
+      
+    }
+    & .flex-side{
+        width:100px;
+        min-height:100%;
+        background-repeat: repeat;
+        background-image: url("https://media.istockphoto.com/id/1340935700/es/vector/patr%C3%B3n-ex%C3%B3tico-sin-costuras-de-lujo-tropical-hojas-de-pl%C3%A1tano-de-colores-pastel-palma.jpg?s=612x612&w=0&k=20&c=VMBR7lsmCZIV1CdAD9CiGnFohEbSDUOEhifo5iTl5i4=");
+    }
+
+h3{
+  background-color: #FCBBC5;
+  color: #079C8F;
+  padding: 2px 22px; 
+  border-radius: 16px;
+  display: inline-block;
+   font-family: 'Raleway';
+      font-size: 45px;
+      text-align: center;
+      color: #194E52;
+      text-align: center;
+}
+h5{
+  font-family:"Noto sans";
+   font-size: 23px;
+}
+
+.mi-boton {
+  font-family:"Ubuntu";
+  font-size: 23px;
+  background-color: #8bd3dd; 
+  color: #194E52;              
+  border: 1px solid #39B5C6;    
+  padding: 10px 20px;          
+  border-radius: 20px;        
+  cursor: pointer;   
+  font-weight: bold;
+}
+.mi-boton:hover {
+  background-color:#2F95A2;
+}

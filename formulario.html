@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Formulario de citas</title>
+</head>
+<body>
+  <div id="flex-container">
+   <div class="flex-side"></div>
+   
+   <div id="flex-content">
+<h3> Bienvenida(o) a tu primera cita con
+  <br>Dra. Vanessa Salazar Valdovinos</h3>
+  <br/>
+<h5> El propósito de este formulario es agilizar nuestro tiempo en consulta
+</h5>
+
+<br/> 
+
+<form action="https://codepen.io/Vanessa-Salazar-the-scripter/fullembedgrid/dPXgpgK?animations=run&type=embed" method="get">
+  <label for="telefono">Teléfono</label>
+  <input type="tel" id="telefono" name="phone"
+pattern="[0-9]+"
+size="10"
+maxlength="10"
+required />
+ <br> 
+  <label for="email">e mail</label>
+<input 
+       type="email" 
+       id="email"
+       name="mail"/>
+ <br> 
+  <label for="name">Nombre de la madre</label>
+<input 
+       type="text" 
+       id="name" 
+       name="momsname"/>
+  <br> 
+  <label for="name">Nombre de bebé</label>
+<input 
+       type="text" 
+       id="name" 
+       name="babysname"/>
+  <br> 
+  <label for="start">Fecha de nacimiento:</label>
+<input
+  type="date"
+  id="start"
+  name="birthday"
+  value="2018-07-22"
+  min="2018-01-01"
+  max="2018-12-31" />
+<br>  
+  <input type="radio" id="parto" name="birthway" value="parto" checked/>
+  <label for="parto">Parto</label>
+  <input type="radio" id="Qx" name="birthway" value="cesarea" checked/>
+  <label for="Qx">Cesárea</label>
+
+<br>
+  Complicaciones durante el embarazo:
+    <input type="radio" id="si" name="complicaciones" value="afirmative_complications" checked/>
+   <label for="si">Si</label>
+    <input type="radio" id="no" name="complicaciones" value="negative_complications" checked/>
+    <label for="no">No</label>
+  <br>   
+    <label for="name">Especifique el tipo de complicación</label>
+     <input 
+       type="text" 
+       id="name" 
+       name="COMPLICATIONS"/>
+   <br>   
+  <label for="name">Motivo de consulta</label>
+  <input 
+       type="text" 
+       id="name" 
+       name="motive"/>
+  <br>
+  <label for="currentbreastfeeding">Qué tipo de lactancia tienes actualmente</label> 
+  <select name="currentbreastfeeding" id="currentbreastfeeding">
+  <option value="value1">Lactancia materna exclusiva</option>
+  <option value="value2" selected>Fórmula</option>
+  <option value="value3">Lactancia Mixta (materna+fórmula)</option>
+</select>
+ <br>
+ <br>  <button class="mi-boton"
+        type="submit">Enviar</button>
+  
+</form>
+    </div>
+    
+    <div class="flex-side"> </div>
+  
+ </div>
+  </body>
+</html>
